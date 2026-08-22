@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+	<title>PCBuild&trade;</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class = "header">
+		<div class = "siteMenu">	
+			<a class = "logo" href = "home.html">
+				<img src = "PCshop_icons/logo.svg" width = 80 height = 80 href="#">
+			</a>
+				<div class="nav">
+					<button id = "navBtn">
+						<img src = "PCshop_icons/menu.svg" alt="Menu" width = 35 height = 35>
+					</button>
+				</div>
+				<div class="menuLinks">
+					<a class = "pg1" href = "home.html">Home</a>
+					<a class = "pg2" href = "components.html">Components</a>
+					<a class = "pg3" href = "PCs.html">PCs</a>
+					<a class = "pg4" href = "other.html">Other</a>
+				</div>
+			<div class="search">
+				<div class="searchBox">
+					<input type="text" id="searchInput" placeholder="Search..." autocomplete="off">
+				</div>
+				<button id="searchBtn">
+					<img src="PCshop_icons/search.svg" width = 30 height = 30>
+				</button>
+			</div>
+			<div class = "cart">
+				<button id="cartBtn">						
+					<img class="cart-png" src="PCshop_icons/cart_outline_black.svg" width="35" height="35">
+				</button>
+			</div>
+			<div class="profile">
+				<button id="prifileBtn">
+					<img src="PCshop_icons/user_outline_black.svg" width="35" height="35">
+				</button>
+			</div>
+		</div>
+	</div>
+
+    <div class = "productsPage">
+        <aside class="filterMenu">
+            <div class="filterPrice"></div>
+            <div class="filterManufacturer"></div>
+            <div class="filterGPU"></div>
+            <div class="filterCPU"></div>
+            <div class="filterRAM"></div>
+            <div class="filterMotherboard"></div>
+            <div class="filterStorage"></div>
+            <div class="filterPSU"></div>
+            <div class="filterCase"></div>
+            <div class="filterCooling"></div>
+            <div class="filterGamingPC"></div>
+            <div class="filterMiniPC"></div>
+            <div class="filterMonitor"></div>
+            <div class="filterKeyboard"></div>
+            <div class="filterMouse"></div>
+            <div class="filterHeadset"></div>
+            <div class="filterMicrophone"></div>
+        </aside>
+
+        <main class="productList">
+            <div class="productGrid">
+                <!-- Product cards will be dynamically generated here -->
+            </div>
+        </main>
+    </div>
+
+    <script src="site.js"></script>
+
+</body>
+</html>
